@@ -1,0 +1,100 @@
+img {
+    position: absolute;
+    z-index: -1;
+}
+
+form {
+    background-image: url("../img/calculadora.jpg");
+    height: 640px;
+    width: 640px;
+    position: relative;
+    input {
+        height: 43px;
+        width: 41px;
+        cursor: pointer;
+        position: absolute;
+        background-color: transparent;
+        border: 0;
+        border: 1px solid;
+        color: transparent;
+    }
+    input:hover {
+        transition: .2s;
+        background-color: rgba(255, 255, 255, 0.148);
+    }
+}
+
+#screen {
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.screen {
+    // border: 1px solid;
+    cursor:default;
+    width: 212px;
+    height: 35px;
+    top: 155px;
+    left: 232px;
+}
+
+.cl7, .cl8, .cl9 {
+    top: 297px;
+}
+
+.cl4, .cl5, .cl6 {
+    top: 348px;
+}
+
+.cl1, .cl2, .cl3 {
+    top: 398px;
+}
+
+.cl0, .suma, .AC {
+    bottom: 151px;
+}
+
+.cl7, .cl4, .cl1, .cl0 {
+    left: 272px;
+}
+
+.cl8, .cl5, .cl2 {
+    left: 320px;
+}
+
+.cl9, .cl6, .cl3 {
+    left: 370px;
+}
+
+.menos {
+    bottom: 334px;
+}
+
+.divide {
+    bottom: 285px;
+}
+
+.multi {
+    bottom: 237px;
+}
+
+.menos, .divide, .multi, .suma {
+    left: 423px;
+}
+
+.suma {
+    height: 75px;
+}
+
+.AC {
+    height: 85px;
+    width: 50px;
+    left: 208px;
+}
+
+.CE {
+    left: 205px;
+    bottom: 245px;
+    width: 43px;
+}
